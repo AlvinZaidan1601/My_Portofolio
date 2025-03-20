@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio | Alvin Zaidan FP</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+</head>
+<body>
+    <section class="home">
+        <nav>
+            <div class="nav">
+                <img src="bahan/Logo.svg" alt="">
+                <div class="links">
+                    <a href="#">Home</a>
+                    <a href="#about">About</a>
+                    <a href="#skill">Skills</a>
+                    <a href="#works">Works</a>
+                </div>
+                <button>Get In Touch</button>
+                <i class="fa-solid fa-bars" id="bars" onclick="bars()"></i>
+            </div>
+        </nav>
+        <div class="short" id="short">
+            <div class="top">
+                <i class="fa-solid fa-xmark" onclick="cancel()"></i>
+                <img src="bahan/Logo.svg" alt="">
+            </div>
+            <div class="mid">
+                <a href="#">Home</a>
+                <a href="#">About</a>
+                <a href="#">Skills</a>
+                <a href="#">Works</a>
+            </div>
+            <div class="bot">
+                <button>Get In Touch</button>
+            </div>
+        </div>
+        <div class="conhome">
+            <div class="upper" data-aos="fade-right" data-aos-duration="800" data-aos-easing="linear" data-aos-delay="1500"><p>A Network Engineer</p></div>
+            <h1 data-aos="zoom-out" data-aos-duration="800" data-aos-easing="linear" data-aos-delay="300">Portfolio</h1>
+            <div class="lower" data-aos="fade-left" data-aos-duration="800" data-aos-easing="linear" data-aos-delay="2300"><p>Alvin Zaidan</p></div>
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <div class="aboutcon" data-aos="fade-up" data-aos-duration="800" data-aos-easing="linear">
+            <img src="bahan/ilustrasi.png" alt="">
+        <div class="conbout" data-aos="fade-up" data-aos-duration="800" data-aos-easing="linear">
+            <h1>About.</h1>
+            <p>I'm a Network engineer student at IDN Boarding School. I learned networking from basic to advanced levels, I can analyze and solve problems in network systems. I can use and master the configuration of several Network media such as in Mikrotik and Cisco. Collaborating on various projects has improved my teamwork and communication skills. I'm eager to keep learning and adapting to new challenges.</p>
+            <a href="#" class="button">See My Works</a>
+        </div>
+        </div>
+
+        <section class="skill" id="skill">
+            <div class="divider">
+                <h1>Skills</h1>
+            </div>
+
+            <div class="netskil">
+                <div class="network" data-aos="fade-up" data-aos-duration="800" data-aos-easing="linear">
+                    <div class="netcon">
+                        <img class="mikrotik" src="bahan/logo-mikrotik.svg" alt="">
+                        <h1>//<span>Mikrotik</span></h1>
+                        <p>Fundamental, Network management, Bridge, Firewall, QoS, Routing, Wireless, VPN, Tunneling, Network Access Remote, etc.</p>
+                    </div>
+                    <div class="gambar">
+                        <img class="mtimg" src="bahan/mikrotik.png" alt="">
+                    </div>
+                </div>
+
+                <div class="network" data-aos="fade-up" data-aos-duration="800" data-aos-easing="linear">
+                    <div class="netcon">
+                        <img class="cisco" src="bahan/logo-cisco.svg" alt="">
+                        <h1>//<span>Cisco</span></h1>
+                        <p>Fundamental, Routing, switching, DHCP, Access List, NAT, FHRP, IpV6, Network Access Remote, etc.</p>
+                    </div>
+                    <div class="gambar">
+                        <img class="ccimg" src="bahan/cisco.png" alt="">
+                    </div>
+                </div>
+            </div>
+
+            <div class="divider">
+                <h1>Experience</h1>
+            </div>
+        </section>
+    </section>
+    <section class="experience">
+        <div class="exbox" data-aos="fade-up" data-aos-duration="800" data-aos-easing="linear">
+            <div class="right">
+                <div class="rtitle">
+                    <h1>Teaching <span>#1</span></h1>
+                    <h2>SMPIT Arkan <br>Cendekia</h2>
+                </div>
+                <p>I became an MTCNA Trainer who taught about Network fundamentals to children at SMPIT Arkan Cendekia school on September 11-12, 2024.</p>
+            </div>
+            
+            <div class="left">
+                <a href="#">See Details</a>
+                <i class="fa-solid fa-arrow-right"></i>
+            </div>
+        </div>
+
+        <div class="exbox" style="background-color: #123F51;" data-aos="fade-up" data-aos-duration="800" data-aos-easing="linear">
+            <div class="right">
+                <div class="rtitle">
+                    <h1>Teaching <span>#2</span></h1>
+                    <h2>SMPN 172 Jakarta</h2>   
+                </div>
+                <p>I became an MTCNA Trainer who taught about Network fundamentals and some basic configurations to children at SMPN 172 Jakarta school on October 16-17, 2024.</p>
+            </div>
+            
+            <div class="left">
+                <a href="#">See Details</a>
+                <i class="fa-solid fa-arrow-right"></i>
+            </div>
+        </div>
+
+        <div class="exbox" data-aos="fade-up" data-aos-duration="800" data-aos-easing="linear">
+            <div class="right">
+                <div class="rtitle">
+                    <h1>Teaching <span>#3</span></h1>
+                    <h2>SMATQ Fajri Bogor</h2>
+                </div>
+                <p>I became an MTCNA Trainer who taught about Network fundamentals and some basic configurations to children at SMATQ Fajri Bogor school on Februari 3-5, 2024.</p>
+            </div>
+            
+            <div class="left">
+                <a href="#">See Details</a>
+                <i class="fa-solid fa-arrow-right"></i>
+            </div>
+        </div>
+
+        <div class="exbox" style="background-color: #123F51;" data-aos="fade-up" data-aos-duration="800" data-aos-easing="linear">
+            <div class="right">
+                <div class="rtitle">
+                    <h1>MTCNA</h1>
+                    <h2>Certification</h2>
+                </div>
+                <p>I took the MTCNA (MikroTik Certified Network Associate) certification at IDN Boarding School Pamijahan Bogor on 18 November, 2024. And successfully passed and got the MTCNA certificate.</p>
+            </div>
+            
+            <div class="left">
+                <a href="#">See Details</a>
+                <i class="fa-solid fa-arrow-right"></i>
+            </div>
+        </div>
+
+        <div class="exbox" data-aos="fade-up" data-aos-duration="800" data-aos-easing="linear">
+            <div class="right">
+                <div class="rtitle">
+                    <h1>MTCRE</h1>
+                    <h2>Certification</h2>
+                </div>
+                <p>I took the MTCRE (MikroTik Certified Routing Engineer) certification at IDN Boarding School Pamijahan Bogor on 9 Desember, 2024. And successfully passed and got the MTCRE certificate.</p>
+            </div>
+            
+            <div class="left">
+                <a href="#">See Details</a>
+                <i class="fa-solid fa-arrow-right"></i>
+            </div>
+        </div>
+    </section>
+    <section class="works" id="works">
+        <div class="title" data-aos="fade-up" data-aos-duration="800" data-aos-easing="linear">
+            <h1>Works.</h1>
+            <p>Discover My Network Engineering Masterpieces</p>
+        </div>
+        
+        <div class="cards">
+            <div class="card" data-aos="fade-up" data-aos-duration="800" data-aos-easing="linear">
+                <img src="bahan/works/book1.png" alt="">
+                <div class="cardcon">
+                    <div class="cardtle">
+                        <h1>Book <span>#1</span></h1>
+                        <p>A book that explains and educates readers about MTCNA (MikroTik Certified Network Associate).</p>
+                    </div>
+                    <a href="#"><i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+            </div>
+
+            <div class="card" data-aos="fade-up" data-aos-duration="800" data-aos-easing="linear">
+                <img src="bahan/works/book2.png" alt="">
+                <div class="cardcon">
+                    <div class="cardtle">
+                        <h1>Book <span>#2</span></h1>
+                        <p>A book that explains and educates readers about MTCRE (MikroTik Certified Routing Expert).</p>
+                    </div>
+                    <a href="#"><i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+            </div>
+
+            <div class="card" data-aos="fade-up" data-aos-duration="800" data-aos-easing="linear">
+                <img src="bahan/works/mtcna.png" alt="">
+                <div class="cardcon">
+                    <div class="cardtle">
+                        <h1>Certificate <span>#1</span></h1>
+                        <p>My MTCNA (Mikrotik Certified Network Associate) certificate, which I got from taking the MTCNA certification at IDN Boarding School Pamijahan Bogor on 2024-11-16</p>
+                    </div>
+                    <a href="#"><i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+            </div>
+
+            <div class="card" data-aos="fade-up" data-aos-duration="800" data-aos-easing="linear">
+                <img src="bahan/works/mtcre.png" alt="">
+                <div class="cardcon">
+                    <div class="cardtle">
+                        <h1>Certificate <span>#2</span></h1>
+                        <p>My MTCRE (Mikrotik Certified Routing Engineer) certificate, which I got from participating in the MTCRE certification at IDN Boarding School Pamijahan Bogor on 2024-12-09.</p>
+                    </div>
+                    <a href="#"><i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+            </div>
+
+            <div class="card" data-aos="fade-up" data-aos-duration="800" data-aos-easing="linear">
+                <img src="bahan/works/topologi1.png" alt="">
+                <div class="cardcon">
+                    <div class="cardtle">
+                        <h1>Super LAB Switching</h1>
+                        <p>In this lab, i learn and make some Switching Configuration. </p>
+                    </div>
+                    <a href="#"><i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+            </div>
+
+            <div class="card" data-aos="fade-up" data-aos-duration="800" data-aos-easing="linear">
+                <img src="bahan/works/topologi2.png" alt="">
+                <div class="cardcon">
+                    <div class="cardtle">
+                        <h1>Super LAB OSPF</h1>
+                        <p>In this lab, i learn and make some Dynamic Routing OSPF Configuration. </p>
+                    </div>
+                    <a href="#"><i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="cv">
+        <div class="top" data-aos="fade-up" data-aos-duration="800" data-aos-easing="linear">
+            <h1>Ready to Start a <span>Project</span> Together?</h1>
+            <p>Collaborate with Me and Innovate</p>
+        </div>
+        <div class="bottom" data-aos="fade-up" data-aos-duration="800" data-aos-easing="linear">
+            <a href="#">Get In Touch</a>
+            <button>Download CV</button>
+        </div>
+    </section>
+    <footer>
+        <div class="start" data-aos="fade-right" data-aos-duration="800" data-aos-easing="linear">
+            <div class="navig">
+                <a href="#">About</a>
+                <a href="#">Pricing</a>
+                <a href="#">Benefit</a>
+                <a href="#">Support</a>
+            </div>
+            <p class="copy">&copy; 2025 Alvin Zaidan. All right reserved</p>
+        </div>
+        <div class="end" data-aos="fade-left" data-aos-duration="800" data-aos-easing="linear">
+            <div class="icons">
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-linkedin"></i>
+                <i class="fa-brands fa-youtube"></i>
+            </div>
+            <div class="kontak">
+                <i class="fa-regular fa-envelope"></i>
+                <p>alvinzpf@gmail.com</p>
+            </div>
+            <div class="kontak">
+                <i class="fa-solid fa-phone"></i>
+                <p>+62 895-1547-1038</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script>
+        AOS.init();
+      </script>
+</body>
+</html>
