@@ -490,7 +490,7 @@ nav button:hover{
 
 .network{
     width: 50%;
-    height: auto;
+    height: 50vh;
     background-color: #0C3445;
     border: 3px solid #2c7383;
     border-radius: 30px;
@@ -506,7 +506,7 @@ nav button:hover{
 
 .network .netcon{
     width: 100%;
-    height: auto;
+    height: 50vh;
     padding: 30px 30px;
     border-radius: 10px;
     background-image: url(bahan/bg-gradient.png);
@@ -1091,7 +1091,7 @@ h1 span{
     color: #3BEAEA;
 }
 
-.bottom button{
+.bottom a:nth-child(2){
     color: #3BEAEA;
     background-color: #134052;
     border: none;
@@ -1104,7 +1104,7 @@ h1 span{
     transition: all 0.4s ease-in-out;
 }
 
-.bottom button:hover{
+.bottom a:nth-child(2):hover{
     background: linear-gradient(45deg, #134052, #12749B);
     color: white;
 }
